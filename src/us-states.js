@@ -313,6 +313,7 @@ var statesData = {
       properties: {
         name: "KOTA CIMAHI",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 178,
         "kabname": "KOTA CIMAHI",
         "carown": 15.388091224,
@@ -1225,6 +1226,7 @@ var statesData = {
       properties: {
         name: "KOTA TASIKMALAYA",
         density: 333,
+        winner:"Asyik",
         "cartodb_id": 179,
         "kabname": "KOTA TASIKMALAYA",
         "carown": 12.6754029349,
@@ -4975,6 +4977,7 @@ var statesData = {
       properties: {
         name: "BOGOR",
         density: 333,
+        winner:"Asyik",
         "cartodb_id": 155,
         "kabname": "BOGOR",
         "carown": 7.98989095243,
@@ -7965,6 +7968,7 @@ var statesData = {
       properties: {
         name: "SUKABUMI",
         density: 333,
+        winner:"Asyik",
         "cartodb_id": 156,
         "kabname": "SUKABUMI",
         "carown": 4.06285208061,
@@ -11625,6 +11629,7 @@ var statesData = {
       properties: {
         name: "CIANJUR",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 157,
         "kabname": "CIANJUR",
         "carown": 2.31443174751,
@@ -13865,6 +13870,7 @@ var statesData = {
       properties: {
         name: "BANDUNG",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 158,
         "kabname": "BANDUNG",
         "carown": 7.8863422149,
@@ -16293,6 +16299,7 @@ var statesData = {
       properties: {
         name: "GARUT",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 159,
         "kabname": "GARUT",
         "carown": 2.71628475151,
@@ -19537,6 +19544,7 @@ var statesData = {
       properties: {
         name: "TASIKMALAYA",
         density : 111,
+        winner:"Rindu",
         "cartodb_id": 160,
         "kabname": "TASIKMALAYA",
         "carown": 3.13927624839,
@@ -23641,6 +23649,7 @@ var statesData = {
       properties: {
         name: "CIAMIS",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 161,
         "kabname": "CIAMIS",
         "carown": 6.07479486769,
@@ -25791,6 +25800,7 @@ var statesData = {
       "properties": {
         name: "CIREBON",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 163,
         "kabname": "CIREBON",
         "carown": 4.14212892588,
@@ -27995,6 +28005,7 @@ var statesData = {
       properties: {
         name: "MAJALENGKA",
         density : 222,
+        winner:"Hasanah",
         "cartodb_id": 164,
         "kabname": "MAJALENGKA",
         "carown": 5.07149165082,
@@ -30119,6 +30130,7 @@ var statesData = {
       properties: {
         name: "SUMEDANG",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 165,
         "kabname": "SUMEDANG",
         "carown": 5.81617458813,
@@ -32585,6 +32597,7 @@ var statesData = {
       properties: {
         name: "INDRAMAYU",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 166,
         "kabname": "INDRAMAYU",
         "carown": 4.06717003611,
@@ -35119,6 +35132,7 @@ var statesData = {
       "properties": {
         name: "SUBANG",
         density: 444,
+        winner:"2DM",
         "cartodb_id": 167,
         "kabname": "SUBANG",
         "carown": 4.61782164545,
@@ -38099,6 +38113,7 @@ var statesData = {
       properties: {
         name: "BANDUNG BARAT",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 171,
         "kabname": "BANDUNG BARAT",
         "carown": 5.24816264337,
@@ -38551,6 +38566,7 @@ var statesData = {
       properties: {
         name: "KOTA SUKABUMI",
         density: 333,
+        winner:"Asyik",
         "cartodb_id": 173,
         "kabname": "KOTA SUKABUMI",
         "carown": 12.3136633782,
@@ -39095,6 +39111,7 @@ var statesData = {
       properties: {
         name: "KOTA BOGOR",
         density: 333,
+        winner:"Asyik",
         "cartodb_id": 172,
         "kabname": "KOTA BOGOR",
         "carown": 16.1307756632,
@@ -39519,6 +39536,7 @@ var statesData = {
       properties: {
         name: "KOTA CIREBON",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 175,
         "kabname": "KOTA CIREBON",
         "carown": 11.1914568243,
@@ -40179,6 +40197,7 @@ var statesData = {
       properties: {
         name: "KOTA BANDUNG",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 174,
         "kabname": "KOTA BANDUNG",
         "carown": 17.6522037891,
@@ -41723,6 +41742,7 @@ var statesData = {
       properties: {
         name: "KUNINGAN",
         density : 111,
+        winner:"Rindu",
         "cartodb_id": 162,
         "kabname": "KUNINGAN",
         "carown": 5.53864740217,
@@ -43341,6 +43361,7 @@ var statesData = {
       "properties": {
         name: "PURWAKARTA",
         density: 444,
+        winner:"2DM",
         "cartodb_id": 168,
         "kabname": "PURWAKARTA",
         "carown": 8.19503359636,
@@ -45329,6 +45350,7 @@ var statesData = {
       properties: {
         name: "KARAWANG",
         density: 444,
+        winner:"2DM",
         "cartodb_id": 169,
         "kabname": "KARAWANG",
         "carown": 7.21635836008,
@@ -47397,6 +47419,7 @@ var statesData = {
       properties: {
         name: "BEKASI",
         density: 333,
+        winner:"Asyik",
         "cartodb_id": 170,
         "kabname": "BEKASI",
         "carown": 11.0818881709,
@@ -48641,6 +48664,7 @@ var statesData = {
       properties: {
         name: "KOTA BEKASI",
         density: 333,
+        winner:"Asyik",
         "cartodb_id": 176,
         "kabname": "KOTA BEKASI",
         "carown": 19.5185214519,
@@ -49265,6 +49289,7 @@ var statesData = {
       properties: {
         name: "KOTA BANJAR",
         density: 111,
+        winner:"Rindu",
         "cartodb_id": 180,
         "kabname": "KOTA BANJAR",
         "carown": 8.95392621704,
@@ -50369,6 +50394,7 @@ var statesData = {
       properties: {
         name: "KOTA DEPOK",
         density: 333,
+        winner:"Asyik",
         "cartodb_id": 177,
         "kabname": "KOTA DEPOK",
         "carown": 15.9973449622,
