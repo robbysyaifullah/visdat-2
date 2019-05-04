@@ -311,6 +311,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA CIMAHI",
+        density: 111,
         "cartodb_id": 178,
         "kabname": "KOTA CIMAHI",
         "carown": 15.388091224,
@@ -1221,6 +1223,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA TASIKMALAYA",
+        density: 333,
         "cartodb_id": 179,
         "kabname": "KOTA TASIKMALAYA",
         "carown": 12.6754029349,
@@ -4969,6 +4973,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN BOGOR",
+        density: 333,
         "cartodb_id": 155,
         "kabname": "KABUPATEN BOGOR",
         "carown": 7.98989095243,
@@ -7957,7 +7963,8 @@ var statesData = {
         ]
       },
       properties: {
-        density: 999999,
+        name: "KABUPATEN SUKABUMI",
+        density: 333,
         "cartodb_id": 156,
         "kabname": "KABUPATEN SUKABUMI",
         "carown": 4.06285208061,
@@ -11616,6 +11623,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN CIANJUR",
+        density: 111,
         "cartodb_id": 157,
         "kabname": "KABUPATEN CIANJUR",
         "carown": 2.31443174751,
@@ -13854,6 +13863,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN BANDUNG",
+        density: 111,
         "cartodb_id": 158,
         "kabname": "KABUPATEN BANDUNG",
         "carown": 7.8863422149,
@@ -16280,6 +16291,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN GARUT",
+        density: 111,
         "cartodb_id": 159,
         "kabname": "KABUPATEN GARUT",
         "carown": 2.71628475151,
@@ -19522,6 +19535,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN TASIKMALAYA",
+        density : 111,
         "cartodb_id": 160,
         "kabname": "KABUPATEN TASIKMALAYA",
         "carown": 3.13927624839,
@@ -23624,6 +23639,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN CIAMIS",
+        density: 111,
         "cartodb_id": 161,
         "kabname": "KABUPATEN CIAMIS",
         "carown": 6.07479486769,
@@ -25772,6 +25789,8 @@ var statesData = {
         ]
       },
       "properties": {
+        name: "KABUPATEN CIREBON",
+        density: 111,
         "cartodb_id": 163,
         "kabname": "KABUPATEN CIREBON",
         "carown": 4.14212892588,
@@ -27974,6 +27993,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN MAJALENGKA",
+        density : 222,
         "cartodb_id": 164,
         "kabname": "KABUPATEN MAJALENGKA",
         "carown": 5.07149165082,
@@ -30096,6 +30117,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN SUMEDANG",
+        density: 111,
         "cartodb_id": 165,
         "kabname": "KABUPATEN SUMEDANG",
         "carown": 5.81617458813,
@@ -32560,6 +32583,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN INDRAMAYU",
+        density: 111,
         "cartodb_id": 166,
         "kabname": "KABUPATEN INDRAMAYU",
         "carown": 4.06717003611,
@@ -35092,6 +35117,8 @@ var statesData = {
         ]
       },
       "properties": {
+        name: "KABUPATEN SUBANG",
+        density: 444,
         "cartodb_id": 167,
         "kabname": "KABUPATEN SUBANG",
         "carown": 4.61782164545,
@@ -38070,6 +38097,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN BANDUNG BARAT",
+        density: 111,
         "cartodb_id": 171,
         "kabname": "KABUPATEN BANDUNG BARAT",
         "carown": 5.24816264337,
@@ -38520,6 +38549,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA SUKABUMI",
+        density: 333,
         "cartodb_id": 173,
         "kabname": "KOTA SUKABUMI",
         "carown": 12.3136633782,
@@ -39062,6 +39093,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA BOGOR",
+        density: 333,
         "cartodb_id": 172,
         "kabname": "KOTA BOGOR",
         "carown": 16.1307756632,
@@ -39484,6 +39517,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA CIREBON",
+        density: 111,
         "cartodb_id": 175,
         "kabname": "KOTA CIREBON",
         "carown": 11.1914568243,
@@ -40142,6 +40177,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA BANDUNG",
+        density: 111,
         "cartodb_id": 174,
         "kabname": "KOTA BANDUNG",
         "carown": 17.6522037891,
@@ -41684,6 +41721,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN KUNINGAN",
+        density : 111,
         "cartodb_id": 162,
         "kabname": "KABUPATEN KUNINGAN",
         "carown": 5.53864740217,
@@ -43300,6 +43339,8 @@ var statesData = {
         ]
       },
       "properties": {
+        name: "KABUPATEN PURWAKARTA",
+        density: 444,
         "cartodb_id": 168,
         "kabname": "KABUPATEN PURWAKARTA",
         "carown": 8.19503359636,
@@ -45286,6 +45327,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN KARAWANG",
+        density: 444,
         "cartodb_id": 169,
         "kabname": "KABUPATEN KARAWANG",
         "carown": 7.21635836008,
@@ -47352,6 +47395,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KABUPATEN BEKASI",
+        density: 333,
         "cartodb_id": 170,
         "kabname": "KABUPATEN BEKASI",
         "carown": 11.0818881709,
@@ -48594,6 +48639,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA BEKASI",
+        density: 333,
         "cartodb_id": 176,
         "kabname": "KOTA BEKASI",
         "carown": 19.5185214519,
@@ -49216,6 +49263,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA BANJAR",
+        density: 111,
         "cartodb_id": 180,
         "kabname": "KOTA BANJAR",
         "carown": 8.95392621704,
@@ -50318,6 +50367,8 @@ var statesData = {
         ]
       },
       properties: {
+        name: "KOTA DEPOK",
+        density: 333,
         "cartodb_id": 177,
         "kabname": "KOTA DEPOK",
         "carown": 15.9973449622,
