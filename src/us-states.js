@@ -4973,10 +4973,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN BOGOR",
+        name: "BOGOR",
         density: 333,
         "cartodb_id": 155,
-        "kabname": "KABUPATEN BOGOR",
+        "kabname": "BOGOR",
         "carown": 7.98989095243,
         "intuse": 47.9695658283,
         "mobintuse": 43.1724650537,
@@ -7963,10 +7963,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN SUKABUMI",
+        name: "SUKABUMI",
         density: 333,
         "cartodb_id": 156,
-        "kabname": "KABUPATEN SUKABUMI",
+        "kabname": "SUKABUMI",
         "carown": 4.06285208061,
         "intuse": 29.3744753755,
         "mobintuse": 26.9384625747,
@@ -11623,10 +11623,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN CIANJUR",
+        name: "CIANJUR",
         density: 111,
         "cartodb_id": 157,
-        "kabname": "KABUPATEN CIANJUR",
+        "kabname": "CIANJUR",
         "carown": 2.31443174751,
         "intuse": 23.0345446074,
         "mobintuse": 20.9565765155,
@@ -13863,10 +13863,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN BANDUNG",
+        name: "BANDUNG",
         density: 111,
         "cartodb_id": 158,
-        "kabname": "KABUPATEN BANDUNG",
+        "kabname": "BANDUNG",
         "carown": 7.8863422149,
         "intuse": 42.9539383002,
         "mobintuse": 36.7722713751,
@@ -16291,10 +16291,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN GARUT",
+        name: "GARUT",
         density: 111,
         "cartodb_id": 159,
-        "kabname": "KABUPATEN GARUT",
+        "kabname": "GARUT",
         "carown": 2.71628475151,
         "intuse": 32.8363155915,
         "mobintuse": 28.1581606264,
@@ -19535,10 +19535,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN TASIKMALAYA",
+        name: "TASIKMALAYA",
         density : 111,
         "cartodb_id": 160,
-        "kabname": "KABUPATEN TASIKMALAYA",
+        "kabname": "TASIKMALAYA",
         "carown": 3.13927624839,
         "intuse": 23.5099822677,
         "mobintuse": 20.7938684189,
@@ -23639,10 +23639,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN CIAMIS",
+        name: "CIAMIS",
         density: 111,
         "cartodb_id": 161,
-        "kabname": "KABUPATEN CIAMIS",
+        "kabname": "CIAMIS",
         "carown": 6.07479486769,
         "intuse": 28.8932425641,
         "mobintuse": 26.0152031892,
@@ -25789,10 +25789,10 @@ var statesData = {
         ]
       },
       "properties": {
-        name: "KABUPATEN CIREBON",
+        name: "CIREBON",
         density: 111,
         "cartodb_id": 163,
-        "kabname": "KABUPATEN CIREBON",
+        "kabname": "CIREBON",
         "carown": 4.14212892588,
         "intuse": 37.9181322012,
         "mobintuse": 33.1743115738,
@@ -27993,10 +27993,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN MAJALENGKA",
+        name: "MAJALENGKA",
         density : 222,
         "cartodb_id": 164,
-        "kabname": "KABUPATEN MAJALENGKA",
+        "kabname": "MAJALENGKA",
         "carown": 5.07149165082,
         "intuse": 34.0072552107,
         "mobintuse": 30.1782622196,
@@ -30117,10 +30117,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN SUMEDANG",
+        name: "SUMEDANG",
         density: 111,
         "cartodb_id": 165,
-        "kabname": "KABUPATEN SUMEDANG",
+        "kabname": "SUMEDANG",
         "carown": 5.81617458813,
         "intuse": 39.0742436793,
         "mobintuse": 35.7264573188,
@@ -32583,10 +32583,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN INDRAMAYU",
+        name: "INDRAMAYU",
         density: 111,
         "cartodb_id": 166,
-        "kabname": "KABUPATEN INDRAMAYU",
+        "kabname": "INDRAMAYU",
         "carown": 4.06717003611,
         "intuse": 38.4769612534,
         "mobintuse": 34.9452900157,
@@ -35117,10 +35117,10 @@ var statesData = {
         ]
       },
       "properties": {
-        name: "KABUPATEN SUBANG",
+        name: "SUBANG",
         density: 444,
         "cartodb_id": 167,
-        "kabname": "KABUPATEN SUBANG",
+        "kabname": "SUBANG",
         "carown": 4.61782164545,
         "intuse": 31.8747321769,
         "mobintuse": 29.2183116203,
@@ -38097,10 +38097,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN BANDUNG BARAT",
+        name: "BANDUNG BARAT",
         density: 111,
         "cartodb_id": 171,
-        "kabname": "KABUPATEN BANDUNG BARAT",
+        "kabname": "BANDUNG BARAT",
         "carown": 5.24816264337,
         "intuse": 26.3588443536,
         "mobintuse": 22.3158091715,
@@ -41721,10 +41721,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN KUNINGAN",
+        name: "KUNINGAN",
         density : 111,
         "cartodb_id": 162,
-        "kabname": "KABUPATEN KUNINGAN",
+        "kabname": "KUNINGAN",
         "carown": 5.53864740217,
         "intuse": 39.0393137376,
         "mobintuse": 33.5464751613,
@@ -43339,10 +43339,10 @@ var statesData = {
         ]
       },
       "properties": {
-        name: "KABUPATEN PURWAKARTA",
+        name: "PURWAKARTA",
         density: 444,
         "cartodb_id": 168,
-        "kabname": "KABUPATEN PURWAKARTA",
+        "kabname": "PURWAKARTA",
         "carown": 8.19503359636,
         "intuse": 47.2815440102,
         "mobintuse": 44.4938074005,
@@ -45327,10 +45327,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN KARAWANG",
+        name: "KARAWANG",
         density: 444,
         "cartodb_id": 169,
-        "kabname": "KABUPATEN KARAWANG",
+        "kabname": "KARAWANG",
         "carown": 7.21635836008,
         "intuse": 39.0208851834,
         "mobintuse": 35.5432172426,
@@ -47395,10 +47395,10 @@ var statesData = {
         ]
       },
       properties: {
-        name: "KABUPATEN BEKASI",
+        name: "BEKASI",
         density: 333,
         "cartodb_id": 170,
-        "kabname": "KABUPATEN BEKASI",
+        "kabname": "BEKASI",
         "carown": 11.0818881709,
         "intuse": 59.7627235199,
         "mobintuse": 56.6249624373,
