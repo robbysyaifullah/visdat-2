@@ -28,15 +28,17 @@
          .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
     </head>
     <body>
-		<div id='judul'>
+		<!-- <div id='judul'>
 			<h1>Calon kandidat</h1>
 			<img src="data/1_Rindu.jpg"></img><br/>
 			<img src="data/2_Hasanah.jpg"></img><br/>
 			<img src="data/3_Asyik.jpg"></img><br/>
 			<img src="data/4_2DM.jpg"></img><br/>
-		</div>
-        <div id='map' style="margin-top:200px; margin-bottom:200px">
-            <noscript>
+		</div> -->
+        <!-- <div id='map' style="margin-top:200px; margin-bottom:200px"> -->
+		<div id='map'>
+        
+			<noscript>
             <div>
                 <h1>Error: JavaScript not enabled</h1>
                 <p>This page requires JavaScript. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser</a>.</p>
@@ -87,7 +89,7 @@
 															'<b>' + props.name + '</b><br />' + 
 															'Pemenang : ' + props.winner + '<br/>' + 
 															'<img height="300px", width:"300px", src="data/'+props.name+'.svg"+'+'></img>'
-			                                              : 'Hover over a state');
+			                                              : 'Hover over a district or city');
 	 };
 
 	 info.addTo(map);
@@ -188,8 +190,5 @@
 	 legend.addTo(map);
 
         </script>
-
-
-
     </body>
 </html>
