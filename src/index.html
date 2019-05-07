@@ -115,7 +115,99 @@
              width: 75vw;
          }
          .info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
-         .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
+		 .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+		 
+		 
+		 /* return d == "2DM" ? '#4563d1' :
+		    d == "Asyik"  ? '#e5922d' :
+		    d == "Hasanah"  ? '#e54759' :
+		    d == "Rindu"  ? '#1fc482' :
+			'#FFEDA0'; */
+		 .button {
+			background-color: #4CAF50; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			}
+
+			#Button1 {
+			background-color: white; 
+			color: black; 
+			border: 2px solid #1fc482;
+			}
+
+		   #Button1 {
+			-webkit-transition-duration: 0.4s; /* Safari */
+			transition-duration: 0.4s;
+		  }
+
+		  #Button1:hover {
+			background-color: #1fc482; /* Green */
+			color: white;
+		  } 
+
+		  #Button2 {
+			background-color: white; 
+			color: black; 
+			border: 2px solid #e54759;
+			}
+
+		   #Button2 {
+			-webkit-transition-duration: 0.4s; /* Safari */
+			transition-duration: 0.4s;
+		  }
+
+		  #Button2:hover {
+			background-color: #e54759; /* Green */
+			color: white;
+		  } 
+
+		  
+		  #Button3 {
+			background-color: white; 
+			color: black; 
+			border: 2px solid #e5922d;
+			}
+
+		   #Button3 {
+			-webkit-transition-duration: 0.4s; /* Safari */
+			transition-duration: 0.4s;
+		  }
+
+		  #Button3:hover {
+			background-color: #e5922d; /* Green */
+			color: white;
+		  } 
+
+		  #Button4 {
+			background-color: white; 
+			color: black; 
+			border: 2px solid #4563d1;
+			}
+
+		   #Button4 {
+			-webkit-transition-duration: 0.4s; /* Safari */
+			transition-duration: 0.4s;
+		  }
+
+		  #Button4:hover {
+			background-color: #4563d1; /* Green */
+			color: white;
+		  } 
+
+		  
+
+		  
+
+		 </style>
+		 
+		
     </head>
     <body>
 		<!-- <h3 width="75%" style="margin:auto;display:block">Peta Pilkada Jabar 2018</h2> -->
@@ -131,10 +223,10 @@
 		<!-- <h3 width="75%" style="margin:auto;display:block">Visi Misi Calon</h2> -->
 		<div id='profil-calon' style="margin:auto; width:75vw;display: flex; flex-direction: row;" >
 			<div>
-				<input id="Button1" type="button" value="Rindu" onclick="switchVisible();"/>
-				<input id="Button2" type="button" value="Hasanah" onclick="switchVisible2();"/>
-				<input id="Button3" type="button" value="Asyik" onclick="switchVisible3();"/>
-				<input id="Button4" type="button" value="2DM" onclick="switchVisible4();"/>
+				<input class= "button" id="Button1" type="button" value="Rindu" onclick="switchVisible();"/>
+				<input class= "button" id="Button2" type="button" value="Hasanah" onclick="switchVisible2();"/>
+				<input class= "button" id="Button3" type="button" value="Asyik" onclick="switchVisible3();"/>
+				<input class= "button" id="Button4" type="button" value="2DM" onclick="switchVisible4();"/>
 			</div>
 		</div>
 		<div style="text-align: center">
@@ -146,6 +238,17 @@
 				Membentuk manusia beriman, berkualitas, dan produktif<br>
 				Membangun infrastruktur<br>
 				Mewujudkan tata kelola pemerintahan yang baik<br>
+				<br>
+				<h2>Pengalaman Kandidat Sebelumnya</h2>
+				<b>M Ridwan Kamil (Non-Partai)</b> - Walikota Bandung (2013-2018)
+				<br>
+				<b>Uu Ruzhanul Ulum (Kader PPP)</b> - Bupati Tasikmalaya (2011-2021)
+				<h2>Partai Politik Pengusung</h2>
+
+				<br>
+				<h2>Jumlah Kursi DPR</h2>
+				24/100
+				<br>
 			</div>
 	
 			<div id='2-Hasanah' style="margin: auto; display: none;">
@@ -159,6 +262,17 @@
 					Pembangunan infrastruktur<br>
 					Jabar sebagai sumber pangan daerah dan nasional<br>
 				</ul>
+				<br>
+				<h2>Pengalaman Kandidat Sebelumnya</h2>
+				<b>Tubagus Hasanudin (Kader PDI-P)</b> - Wakil Ketua Komisi 1 DPR (2014-2018)
+				<br>
+				<b>Anton Charliyan (Non-Partai)</b> - Kapolda Jawa Barat (2016-2017)
+				<h2>Partai Politik Pengusung</h2>
+
+				<br>
+				<h2>Jumlah Kursi DPR</h2>
+				20/100
+				<br>
 			</div>
 	
 			<div id='3-Asyik' style="margin: auto; display: none;">
@@ -170,6 +284,17 @@
 					Meningkatkan kesejahteraan<br>
 					Meningkatkan infrastruktur<br>
 					Tata kelola pemerintahan yang profesional<br>
+				<br>
+				<h2>Pengalaman Kandidat Sebelumnya</h2>
+				<b>Sudrajat (Kader Partai Gerindra)</b> - Purnawirawan TNI-AD (2005)
+				<br>
+				<b>Ahmad Syaikhu (Kader PKS)</b> - Wakil Walikota Bekasi  (2013-2018)
+				<h2>Partai Politik Pengusung</h2>
+
+				<br>
+				<h2>Jumlah Kursi DPR</h2>
+				27/100
+				<br>
 			</div>
 	
 			<div id='4-2DM' style="margin: auto; display: none;">
@@ -180,6 +305,17 @@
 					Membentuk manusia beriman, berkualitas, dan produktif<br>
 					Membangun infrastruktur<br>
 					Mewujudkan tata kelola pemerintahan yang baik<br>
+				<br>
+				<h2>Pengalaman Kandidat Sebelumnya</h2>
+				<b>Deddy Mizwar (Kader Partai Gerindra)</b> - Wakil Gubernur Jawa Barat (2013-2018)
+				<br>
+				<b>Dedi Mulyadi (Kader Partai Golkar)</b> - Bupati Purwakarta  (2008-2018)
+				<h2>Partai Politik Pengusung</h2>
+
+				<br>
+				<h2>Jumlah Kursi DPR</h2>
+				29/100
+				<br>
 			</div>
 
 		</div>
