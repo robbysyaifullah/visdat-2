@@ -2,7 +2,7 @@
 <html>
     <head>
 
-	<title>Choropleth Tutorial - Leaflet</title>
+	<title>Pilkada Jawa Barat 2018</title>
 
 	<meta charset="utf-8" />
         <meta name="theme-color" content="#00000" />
@@ -118,8 +118,8 @@
          .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
     </head>
     <body>
-		
-		<div id='map' width="75%" style="margin:auto;display:block">
+		<!-- <h3 width="75%" style="margin:auto;display:block">Peta Pilkada Jabar 2018</h2> -->
+		<div id='map' height="75%" width="75%" style="margin:auto;display:block">
         
 			<noscript>
 				<div>
@@ -128,43 +128,62 @@
 				</div>
 			</noscript>
 		</div>
-
+		<!-- <h3 width="75%" style="margin:auto;display:block">Visi Misi Calon</h2> -->
 		<div id='profil-calon' style="margin:auto; width:75vw;display: flex; flex-direction: row;" >
-
-			<input id="Button1" type="button" value="Rindu" onclick="switchVisible();"/>
-			<input id="Button2" type="button" value="Hasanah" onclick="switchVisible2();"/>
-			<input id="Button3" type="button" value="Asyik" onclick="switchVisible3();"/>
-			<input id="Button4" type="button" value="2DM" onclick="switchVisible4();"/>
-
-			<div id='1-Rindu' style="display: none;">
+			<div>
+				<input id="Button1" type="button" value="Rindu" onclick="switchVisible();"/>
+				<input id="Button2" type="button" value="Hasanah" onclick="switchVisible2();"/>
+				<input id="Button3" type="button" value="Asyik" onclick="switchVisible3();"/>
+				<input id="Button4" type="button" value="2DM" onclick="switchVisible4();"/>
+			</div>
+		</div>
+		<div style="text-align: center">
+			<div id='1-Rindu' style="margin: auto; display: none;">
 				<img src="data/1_Rindu.jpg" alt="">
-				<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, corrupti sint adipisci quidem pariatur quae dolor ut quos veniam, quod et, repellat ipsam atque laboriosam. Assumenda culpa velit accusantium enim!</h1>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat optio dolore tenetur rem consequatur id, animi molestiae consectetur necessitatibus repellat ex possimus temporibus similique non nobis dignissimos dicta neque atque.</h2>
+				<h1>Visi</h1>
+				Menghadirkan Jawa Barat JUARA
+				<h2>Misi</h2>
+				Membentuk manusia beriman, berkualitas, dan produktif<br>
+				Membangun infrastruktur<br>
+				Mewujudkan tata kelola pemerintahan yang baik<br>
 			</div>
 	
-			<div id='2-Hasanah' style="display: none;">
+			<div id='2-Hasanah' style="margin: auto; display: none;">
 				<img src="data/2_Hasanah.jpg" alt="">
-				<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, corrupti sint adipisci quidem pariatur quae dolor ut quos veniam, quod et, repellat ipsam atque laboriosam. Assumenda culpa velit accusantium enim!</h1>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat optio dolore tenetur rem consequatur id, animi molestiae consectetur necessitatibus repellat ex possimus temporibus similique non nobis dignissimos dicta neque atque.</h2>
+				<h1>Visi</h1>
+				Terwujudnya Jawa Barat yang makmur berbasiskan sumber daya alam dan budaya
+				<h2>Misi</h2>
+					Menjadikan manusia bersumber daya, berdaya saing berbasis nilai agama
+						dan budaya
+					<br>
+					Pembangunan infrastruktur<br>
+					Jabar sebagai sumber pangan daerah dan nasional<br>
+				</ul>
 			</div>
 	
-			<div id='3-Asyik' style="display: none;">
+			<div id='3-Asyik' style="margin: auto; display: none;">
 				<img src="data/3_Asyik.jpg" alt="">
-				<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, corrupti sint adipisci quidem pariatur quae dolor ut quos veniam, quod et, repellat ipsam atque laboriosam. Assumenda culpa velit accusantium enim!</h1>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat optio dolore tenetur rem consequatur id, animi molestiae consectetur necessitatibus repellat ex possimus temporibus similique non nobis dignissimos dicta neque atque.</h2>
+				<h1>Visi</h1>
+				Jawa Barat termaju, bertakwa, aman dan sejahtera untuk semua
+				<h2>Misi</h2>
+					Membangun manusia agamis, sehat, unggul, gotong royong, toleran, dan harmoni<br>
+					Meningkatkan kesejahteraan<br>
+					Meningkatkan infrastruktur<br>
+					Tata kelola pemerintahan yang profesional<br>
 			</div>
 	
-			<div id='4-2DM' style="display: none;">
+			<div id='4-2DM' style="margin: auto; display: none;">
 				<img src="data/4_2DM.jpg" alt="">
-				<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, corrupti sint adipisci quidem pariatur quae dolor ut quos veniam, quod et, repellat ipsam atque laboriosam. Assumenda culpa velit accusantium enim!</h1>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat optio dolore tenetur rem consequatur id, animi molestiae consectetur necessitatibus repellat ex possimus temporibus similique non nobis dignissimos dicta neque atque.</h2>
+				<h1>Visi</h1>
+				Terwujudnya Jawa Barat yang adil, sejahtera, dan berkatakter tahun 2023
+				<h2>Misi</h2>
+					Membentuk manusia beriman, berkualitas, dan produktif<br>
+					Membangun infrastruktur<br>
+					Mewujudkan tata kelola pemerintahan yang baik<br>
 			</div>
 
 		</div>
 
-		<div style="margin:auto; width:75vw;display: flex; flex-direction: row;">
-			HELLO BRO
-		</div>
 		<script type="text/javascript">
          if(navigator.serviceWorker) {
              navigator.serviceWorker.register('sw.js')
