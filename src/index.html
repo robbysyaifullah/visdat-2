@@ -10,6 +10,9 @@
         <link rel="manifest" href="/manifest.json">
 
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
         <script src="node_modules/leaflet/dist/leaflet.js"></script>
@@ -33,7 +36,10 @@
                 else {
                     document.getElementById('1-Rindu').style.display = 'none';
                 }
-            }
+				$('html,body').animate({
+					scrollTop: $(".profil-calon").offset().top},
+				'slow');
+			}
 		}
 
 		function switchVisible2() {
@@ -54,6 +60,9 @@
                 else {
                     document.getElementById('2-Hasanah').style.display = 'none';
                 }
+				$('html,body').animate({
+					scrollTop: $(".profil-calon").offset().top},
+				'slow');
             }
 		}
 
@@ -75,6 +84,9 @@
                 else {
                     document.getElementById('3-Asyik').style.display = 'none';
                 }
+				$('html,body').animate({
+					scrollTop: $(".profil-calon").offset().top},
+				'slow');
             }
 		}
 
@@ -96,11 +108,17 @@
                 else {
                     document.getElementById('4-2DM').style.display = 'none';
                 }
+				$('html,body').animate({
+					scrollTop: $(".profil-calon").offset().top},
+				'slow');
             }
 		}
 	</script>
 	<style>
 
+		#party-pic {
+			padding-right: 20px;
+		}
          body {
 			 background-color:#DCDCDC;
              padding: 0;
@@ -140,6 +158,7 @@
 			background-color: white; 
 			color: black; 
 			border: 2px solid #1fc482;
+			border-radius: 8px;
 			}
 
 		   #Button1 {
@@ -156,6 +175,7 @@
 			background-color: white; 
 			color: black; 
 			border: 2px solid #e54759;
+			border-radius: 8px;
 			}
 
 		   #Button2 {
@@ -173,6 +193,7 @@
 			background-color: white; 
 			color: black; 
 			border: 2px solid #e5922d;
+			border-radius: 8px;			
 			}
 
 		   #Button3 {
@@ -189,6 +210,7 @@
 			background-color: white; 
 			color: black; 
 			border: 2px solid #4563d1;
+			border-radius: 8px;
 			}
 
 		   #Button4 {
@@ -221,7 +243,7 @@
 			</noscript>
 		</div>
 		<!-- <h3 width="75%" style="margin:auto;display:block">Visi Misi Calon</h2> -->
-		<div id='profil-calon' style="margin:auto; width:75vw;display: flex; flex-direction: row;" >
+		<div id='profil-calon' class='profil-calon' style="margin:auto; width:75vw;display: flex; flex-direction: row;" >
 			<div>
 				<input class= "button" id="Button1" type="button" value="Rindu" onclick="switchVisible();"/>
 				<input class= "button" id="Button2" type="button" value="Hasanah" onclick="switchVisible2();"/>
@@ -231,7 +253,7 @@
 		</div>
 		<div style="text-align: center">
 			<div id='1-Rindu' style="margin: auto; display: none;">
-				<img src="data/1_Rindu.jpg" alt="">
+				<img src="data/1_Rindu.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Menghadirkan Jawa Barat JUARA
 				<h2>Misi</h2>
@@ -244,7 +266,10 @@
 				<br>
 				<b>Uu Ruzhanul Ulum (Kader PPP)</b> - Bupati Tasikmalaya (2011-2021)
 				<h2>Partai Politik Pengusung</h2>
-
+				<img id="party-pic" src="data/partai/ppp.png" height="100" alt="">
+				<img id="party-pic" src="data/partai/Pkb.jpg" height="100" alt="">
+				<img id="party-pic" src="data/partai/nasdem.jpg" height="100" alt="">
+				<img id="party-pic" src="data/partai/hanura.jpg" height="100" alt="">
 				<br>
 				<h2>Jumlah Kursi DPR</h2>
 				24/100
@@ -252,7 +277,7 @@
 			</div>
 	
 			<div id='2-Hasanah' style="margin: auto; display: none;">
-				<img src="data/2_Hasanah.jpg" alt="">
+				<img src="data/2_Hasanah.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Terwujudnya Jawa Barat yang makmur berbasiskan sumber daya alam dan budaya
 				<h2>Misi</h2>
@@ -268,7 +293,7 @@
 				<br>
 				<b>Anton Charliyan (Non-Partai)</b> - Kapolda Jawa Barat (2016-2017)
 				<h2>Partai Politik Pengusung</h2>
-
+				<img id="party-pic" src="data/partai/pdip.png" height="100" alt="">
 				<br>
 				<h2>Jumlah Kursi DPR</h2>
 				20/100
@@ -276,7 +301,7 @@
 			</div>
 	
 			<div id='3-Asyik' style="margin: auto; display: none;">
-				<img src="data/3_Asyik.jpg" alt="">
+				<img src="data/3_Asyik.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Jawa Barat termaju, bertakwa, aman dan sejahtera untuk semua
 				<h2>Misi</h2>
@@ -290,7 +315,8 @@
 				<br>
 				<b>Ahmad Syaikhu (Kader PKS)</b> - Wakil Walikota Bekasi  (2013-2018)
 				<h2>Partai Politik Pengusung</h2>
-
+				<img id="party-pic" src="data/partai/gerindra.jpeg" height="100" alt="">
+				<img id="party-pic" src="data/partai/pks.jpg" height="100" alt="">
 				<br>
 				<h2>Jumlah Kursi DPR</h2>
 				27/100
@@ -298,7 +324,7 @@
 			</div>
 	
 			<div id='4-2DM' style="margin: auto; display: none;">
-				<img src="data/4_2DM.jpg" alt="">
+				<img src="data/4_2DM.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Terwujudnya Jawa Barat yang adil, sejahtera, dan berkatakter tahun 2023
 				<h2>Misi</h2>
@@ -311,7 +337,9 @@
 				<br>
 				<b>Dedi Mulyadi (Kader Partai Golkar)</b> - Bupati Purwakarta  (2008-2018)
 				<h2>Partai Politik Pengusung</h2>
-
+				<img id="party-pic" src="data/partai/golkar.png" height="100" alt="">
+				<img id="party-pic" src="data/partai/demokrat.png" height="100" alt="">
+				<img id="party-pic" src="data/partai/pan.png" height="100" alt="">
 				<br>
 				<h2>Jumlah Kursi DPR</h2>
 				29/100
