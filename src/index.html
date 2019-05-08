@@ -131,12 +131,17 @@
              height: 100%;
              width: 100vw;
          }
+		 h1, h2, h3{
+			 line-height:1.75em;
+			 margin-bottom:0.5em;
+			 margin-top:1em;
+		 }
 		#map {
              height: 100%;
              width: 75vw;
          }
          .info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
-		 .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+		 .legend { text-align: left; line-height: 20px; width:110px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
 		 
 		 
 		 /* return d == "2DM" ? '#4563d1' :
@@ -145,7 +150,7 @@
 		    d == "Rindu"  ? '#1fc482' :
 			'#FFEDA0'; */
 		 .button {
-			background-color: #4CAF50; /* Green */
+			background-color: #4CAF50; 
 			border: none;
 			color: white;
 			padding: 15px 32px;
@@ -165,12 +170,12 @@
 			}
 
 		   #Button1 {
-			-webkit-transition-duration: 0.4s; /* Safari */
+			-webkit-transition-duration: 0.4s; 
 			transition-duration: 0.4s;
 		  }
 
 		  #Button1:hover {
-			background-color: #1fc482; /* Green */
+			background-color: #1fc482; 
 			color: white;
 		  } 
 
@@ -182,12 +187,12 @@
 			}
 
 		   #Button2 {
-			-webkit-transition-duration: 0.4s; /* Safari */
+			-webkit-transition-duration: 0.4s; 
 			transition-duration: 0.4s;
 		  }
 
 		  #Button2:hover {
-			background-color: #e54759; /* Green */
+			background-color: #e54759; 
 			color: white;
 		  } 
 
@@ -200,12 +205,12 @@
 			}
 
 		   #Button3 {
-			-webkit-transition-duration: 0.4s; /* Safari */
+			-webkit-transition-duration: 0.4s; 
 			transition-duration: 0.4s;
 		  }
 
 		  #Button3:hover {
-			background-color: #e5922d; /* Green */
+			background-color: #e5922d; 
 			color: white;
 		  } 
 
@@ -217,19 +222,14 @@
 			}
 
 		   #Button4 {
-			-webkit-transition-duration: 0.4s; /* Safari */
+			-webkit-transition-duration: 0.4s; 
 			transition-duration: 0.4s;
 		  }
 
 		  #Button4:hover {
-			background-color: #4563d1; /* Green */
+			background-color: #4563d1; 
 			color: white;
 		  } 
-
-		  
-
-		  
-
 		 </style>
 		 
 		
@@ -249,15 +249,9 @@
 			<h2>Berikut Peta Persebaran 
 			<br />
 			Masing-masing Kandidat
-			<!-- <br />
-			break the universe</h2> -->
-			<!--
-			<p>Tellus erat mauris ipsum fermentum<br />
-			etiam vivamus nunc nibh morbi.</p>
-			-->
 		</header>
 
-		<div class="box alt container">
+		<!-- <div class="box alt container">
 			<section class="feature left">
 				<a href="#" class="image icon fa-signal"><img src="images/pic01.jpg" alt="" /></a>
 				<div class="content">
@@ -286,8 +280,8 @@
 					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
 				</div>
 			</section>
-		</div>
-		<!-- <h3 width="75%" style="margin:auto;display:block">Peta Pilkada Jabar 2018</h2> -->
+		</div> -->
+
 		<div id='map' height="75%" width="75%" style="margin:auto;display:block">
         
 			<noscript>
@@ -311,6 +305,7 @@
 				<img src="data/1_Rindu.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Menghadirkan Jawa Barat JUARA
+				<br>
 				<h2>Misi</h2>
 				Membentuk manusia beriman, berkualitas, dan produktif<br>
 				Membangun infrastruktur<br>
@@ -320,13 +315,14 @@
 				<b>M Ridwan Kamil (Non-Partai)</b> - Walikota Bandung (2013-2018)
 				<br>
 				<b>Uu Ruzhanul Ulum (Kader PPP)</b> - Bupati Tasikmalaya (2011-2021)
+				<br>
 				<h2>Partai Politik Pengusung</h2>
 				<img id="party-pic" src="data/partai/ppp.png" height="100" alt="">
 				<img id="party-pic" src="data/partai/Pkb.jpg" height="100" alt="">
 				<img id="party-pic" src="data/partai/nasdem.jpg" height="100" alt="">
 				<img id="party-pic" src="data/partai/hanura.jpg" height="100" alt="">
 				<br>
-				<h2>Jumlah Kursi DPR</h2>
+				<h2>Jumlah Kursi DPRD</h2>
 				24/100
 				<br>
 			</div>
@@ -335,6 +331,7 @@
 				<img src="data/2_Hasanah.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Terwujudnya Jawa Barat yang makmur berbasiskan sumber daya alam dan budaya
+				<br>
 				<h2>Misi</h2>
 					Menjadikan manusia bersumber daya, berdaya saing berbasis nilai agama
 						dan budaya
@@ -347,10 +344,11 @@
 				<b>Tubagus Hasanudin (Kader PDI-P)</b> - Wakil Ketua Komisi 1 DPR (2014-2018)
 				<br>
 				<b>Anton Charliyan (Non-Partai)</b> - Kapolda Jawa Barat (2016-2017)
+				<br>
 				<h2>Partai Politik Pengusung</h2>
 				<img id="party-pic" src="data/partai/pdip.png" height="100" alt="">
 				<br>
-				<h2>Jumlah Kursi DPR</h2>
+				<h2>Jumlah Kursi DPRD</h2>
 				20/100
 				<br>
 			</div>
@@ -359,6 +357,7 @@
 				<img src="data/3_Asyik.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Jawa Barat termaju, bertakwa, aman dan sejahtera untuk semua
+				<br>
 				<h2>Misi</h2>
 					Membangun manusia agamis, sehat, unggul, gotong royong, toleran, dan harmoni<br>
 					Meningkatkan kesejahteraan<br>
@@ -369,11 +368,13 @@
 				<b>Sudrajat (Kader Partai Gerindra)</b> - Purnawirawan TNI-AD (2005)
 				<br>
 				<b>Ahmad Syaikhu (Kader PKS)</b> - Wakil Walikota Bekasi  (2013-2018)
+				<br>
 				<h2>Partai Politik Pengusung</h2>
 				<img id="party-pic" src="data/partai/gerindra.jpeg" height="100" alt="">
 				<img id="party-pic" src="data/partai/pks.jpg" height="100" alt="">
+				<img id="party-pic" src="data/partai/pan.png" height="100" alt="">
 				<br>
-				<h2>Jumlah Kursi DPR</h2>
+				<h2>Jumlah Kursi DPRD</h2>
 				27/100
 				<br>
 			</div>
@@ -382,6 +383,7 @@
 				<img src="data/4_2DM.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Terwujudnya Jawa Barat yang adil, sejahtera, dan berkarakter tahun 2023
+				<br>
 				<h2>Misi</h2>
 					Membentuk manusia beriman, berkualitas, dan produktif<br>
 					Membangun infrastruktur<br>
@@ -391,12 +393,12 @@
 				<b>Deddy Mizwar (Kader Partai Gerindra)</b> - Wakil Gubernur Jawa Barat (2013-2018)
 				<br>
 				<b>Dedi Mulyadi (Kader Partai Golkar)</b> - Bupati Purwakarta  (2008-2018)
+				<br>
 				<h2>Partai Politik Pengusung</h2>
 				<img id="party-pic" src="data/partai/golkar.png" height="100" alt="">
 				<img id="party-pic" src="data/partai/demokrat.png" height="100" alt="">
-				<img id="party-pic" src="data/partai/pan.png" height="100" alt="">
 				<br>
-				<h2>Jumlah Kursi DPR</h2>
+				<h2>Jumlah Kursi DPRD</h2>
 				29/100
 				<br>
 			</div>
@@ -418,8 +420,8 @@
 
 	 var map = L.map('map').setView([-6.75, 107.75], 9)
 	 map.setMaxBounds([
-                    [-5, 106],
-                    [-8, 110]
+                    [-5.5, 105.5],
+                    [-8.5, 109]
 				]);
 	map.options.minZoom = 9
 	map.options.maxZoom = 10
@@ -446,7 +448,7 @@
 															'<b>' + props.name + '</b><br />' + 
 															'Pemenang : ' + props.winner + '<br/>' + 
 															'<img height="300px", width:"300px", src="data/'+props.name+'.svg"+'+'></img>'
-			                                              : 'Hover over a district or city');
+			                                              : 'Hover ke kabupaten/kota yang diinginkan');
 	 };
 
 	 info.addTo(map);
