@@ -11,7 +11,7 @@ Visualisasi Hasil Pilkada Jabar 2018 dan Pengenalan calon gubernur dan calon wak
 
 ## Tampilan/Visualisasi yang ada 
 ### Halaman Pertama yang berisi <i>Slide Show</i> dari para paslon 
-![](src/screen_shot/main-html.png)
+![](src/screen_shot/main-html.PNG)
 
 ### <i>Pie Chart</i> Hasil Pilkada Jabar
 ![](src/screen_shot/pie_keseluruhan.png)
