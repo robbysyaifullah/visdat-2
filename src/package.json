@@ -1,7 +1,7 @@
 {
-  "name": "leaflet-example-pwa",
+  "name": "Tugas Besar 2 Visualisasi Data",
   "version": "0.1.0",
-  "description": "A progressive web app using Leaflet",
+  "description": "",
   "main": "sw.js",
   "scripts": {
     "start": "ecstatic",
@@ -11,7 +11,7 @@
     "leaflet",
     "pwa"
   ],
-  "author": "Nick Peihl <nickpeihl@gmail.com>",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "ecstatic": "^3.3.1",
