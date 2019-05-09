@@ -7,8 +7,7 @@ Visualisasi Hasil Pilkada Jabar 2018 dan Pengenalan calon gubernur dan calon wak
 2. Buka folder src repository ini di komputer
 3. Buka terminal
 4. Jalankan <i>command</i> 'npm install'
-5. Jalankan <i>command</i> 'npm run start'
-6. Jalankan 'localhost:8000' di web browser
+5. Double klik main.html
 
 ## Tampilan/Visualisasi yang ada 
 ### <i>Pie Chart</i> Hasil Pilkada Jabar
