@@ -17,7 +17,9 @@
 	<link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
 	<script src="node_modules/leaflet/dist/leaflet.js"></script>
 	
+
 	<link rel="stylesheet" href="assets/css/main.css" />
+
 
 
 
@@ -138,17 +140,12 @@
 		 }
 		#map {
              height: 100%;
-             width: 75vw;
+             width: 80%;
          }
          .info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
 		 .legend { text-align: left; line-height: 20px; width:110px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
 		 
 		 
-		 /* return d == "2DM" ? '#4563d1' :
-		    d == "Asyik"  ? '#e5922d' :
-		    d == "Hasanah"  ? '#e54759' :
-		    d == "Rindu"  ? '#1fc482' :
-			'#FFEDA0'; */
 		 .button {
 			background-color: #4CAF50; 
 			border: none;
@@ -234,15 +231,15 @@
 		 
 		
     </head>
-    <body>
+    <body >
 
-		
 		<!-- Header -->
 		<div id="header">
 			<span class="logo icon fa-paper-plane-o"></span>
 			<h1>Pilkada Jabar 2018.</h1>
 			<p> dilaksanakan pada 27 Juni 2018 untuk menentukan Gubernur dan Wakil Gubernur Jawa Barat periode 2018–2023
 			<br />
+
 		</div>
 		
 		<header class="major container large">
@@ -250,7 +247,7 @@
 				Dengan perolehan sebagai berikut
 		</header>
 
-		<div style="text-align:center">
+		<div class="grow" style="text-align:center; margin-left: 20%; margin-right: 20%; padding-bottom: 5%; ">
 			<img src="data/total_hasil.png">
 		</div>
 
@@ -258,38 +255,8 @@
 			<h2>Berikut Peta Persebaran Masing-masing Kandidat
 		</header>
 
-		<!-- <div class="box alt container">
-			<section class="feature left">
-				<a href="#" class="image icon fa-signal"><img src="images/pic01.jpg" alt="" /></a>
-				<div class="content">
-					<h3>Rindu</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-				</div>
-			</section>
-			<section class="feature right">
-				<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
-				<div class="content">
-					<h3>Hasanah</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-				</div>
-			</section>
-			<section class="feature left">
-				<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
-				<div class="content">
-					<h3>Asyik</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-				</div>
-			</section>
-			<section class="feature right">
-				<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
-				<div class="content">
-					<h3>2DM</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-				</div>
-			</section>
-		</div> -->
-
-		<div id='map' height="75%" width="75%" style="margin:auto;display:block">
+		
+		<div id='map' style="margin:auto;display:block">
         
 			<noscript>
 				<div>
@@ -297,18 +264,24 @@
 					<p>This page requires JavaScript. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser</a>.</p>
 				</div>
 			</noscript>
+			<br>
+			<br>
 		</div>
+
+		<header class="major container medium">
+			<h2>Berikut Profil Tiap Kandidat </h2>
+		</header>
 		<!-- <h3 width="75%" style="margin:auto;display:block">Visi Misi Calon</h2> -->
-		<div id='profil-calon' class='profil-calon' style="margin:auto; width:75vw;display: flex; flex-direction: row;" >
+		<div id='profil-calon' class='profil-calon' style="margin:auto; width:70%;display: flex; flex-direction: row;" >
 			<div>
-				<input class= "button" id="Button1" type="button" value="Rindu" onclick="switchVisible();"/>
-				<input class= "button" id="Button2" type="button" value="Hasanah" onclick="switchVisible2();"/>
-				<input class= "button" id="Button3" type="button" value="Asyik" onclick="switchVisible3();"/>
-				<input class= "button" id="Button4" type="button" value="2DM" onclick="switchVisible4();"/>
+				<input class= "button" id="Button1" type="button" value="Rindu" style="width:20%" onclick="switchVisible();"/>
+				<input class= "button" id="Button2" type="button" value="Hasanah" style="width:20%" onclick="switchVisible2();"/>
+				<input class= "button" id="Button3" type="button" value="Asyik" style="width:20%" onclick="switchVisible3();"/>
+				<input class= "button" id="Button4" type="button" value="2DM" style="width:20%" onclick="switchVisible4();"/>
 			</div>
 		</div>
 		<div style="text-align: center">
-			<div id='1-Rindu' style="margin: auto; display: none;">
+			<div   id='1-Rindu' style="margin: auto; display: none;">
 				<img src="data/1_Rindu.jpg"  height="400" alt="">
 				<h1>Visi</h1>
 				Menghadirkan Jawa Barat JUARA
@@ -420,6 +393,8 @@
                       });
          }
         </script>
+		
+		<!-- Scripts -->
 
         <script type="text/javascript" src="us-states.js"></script>
 
@@ -428,9 +403,9 @@
 	 var map = L.map('map').setView([-6.75, 107.75], 9)
 	 map.setMaxBounds([
                     [-5.5, 105.5],
-                    [-8.5, 109]
+                    [-8.5, 113]
 				]);
-	map.options.minZoom = 9
+	map.options.minZoom = 8
 	map.options.maxZoom = 10
 	 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 	     maxZoom: 18,
