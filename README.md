@@ -6,9 +6,6 @@ Visualisasi Hasil Pilkada Jabar 2018 dan Pengenalan calon gubernur dan calon wak
 https://infinite-mountain-18326.herokuapp.com/
 
 ## Tampilan/Visualisasi yang ada 
-### Halaman Pertama yang berisi <i>Slide Show</i> dari para paslon 
-![](screen_shot/main-html.PNG)
-
 ### <i>Pie Chart</i> Hasil Pilkada Jabar
 ![](screen_shot/pie_keseluruhan.png)
 
