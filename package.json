@@ -1,0 +1,21 @@
+{
+  "name": "leaflet-example-pwa",
+  "version": "0.1.0",
+  "description": "",
+  "main": "sw.js",
+  "scripts": {
+    "start": "ecstatic",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leaflet",
+    "pwa"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ecstatic": "^3.3.1",
+    "leaflet": "^1.4.0",
+    "nodemon": "^1.19.0"
+  }
+}
