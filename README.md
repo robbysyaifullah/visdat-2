@@ -2,12 +2,8 @@
 # Pilkada Jabar 2018
 Visualisasi Hasil Pilkada Jabar 2018 dan Pengenalan calon gubernur dan calon wakil gubernur Jabar 2018
 
-## Cara Menginstall
-1. <i>Clone/download</i> repository ini
-2. Buka folder src repository ini di komputer
-3. Buka terminal
-4. Jalankan <i>command</i> 'npm install'
-5. Double klik main.html
+## Live Demo
+https://infinite-mountain-18326.herokuapp.com/
 
 ## Tampilan/Visualisasi yang ada 
 ### Halaman Pertama yang berisi <i>Slide Show</i> dari para paslon 
